@@ -85,7 +85,7 @@ if __name__ == '__main__':
     c = 0
 #   c = pesqLista(listaArquivo, notasdir)
 #   findMatchCopy('lista.txt', 'D:/RD/NF2016', notasdest)
-    c = pesqListaCopia(listaArquivo, sourcedir, sourcedir)
+    c = pesqListaCopia(listaArquivo, sourcedir, destination)
     print('Concluido! Linhas #', c)
 
     """
