@@ -76,21 +76,21 @@ def pesqListaCopia(filepath, dirpesq, dirdestino):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     listaArquivo = './lista.txt'
-    ###notasdir = 'D:/RD/NF2016';
-    notasdir = 'C:/Users/leandro.leao/OneDrive';
-    notasdest = './dest'
-    print('----------------------', listaArquivo)
-    print('Procurar arquivos de ', listaArquivo)
-    print('----------------------', listaArquivo)
+    ###sourcedir= 'D:/DIR/2016';
+    sourcedir = 'C:/Users/leandro.leao/OneDrive';
+    destination = './dest'
+    print('----------------------')
+    print('Procurar arquivos de ', listaArquivo, ' copia para ', destination )
+    print('----------------------')
     c = 0
 #   c = pesqLista(listaArquivo, notasdir)
 #   findMatchCopy('lista.txt', 'D:/RD/NF2016', notasdest)
-    c = pesqListaCopia(listaArquivo, notasdir, notasdest)
+    c = pesqListaCopia(listaArquivo, sourcedir, sourcedir)
     print('Concluido! Linhas #', c)
 
     """
-    find_all('*95104*.pdf', notasdir)
-    findm('*17127*', notasdir)
-    """"
+    find_all('*95104*.pdf', sourcedir)
+    findm('*17127*', sourcedir)
+    """
     print('Fim')
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
